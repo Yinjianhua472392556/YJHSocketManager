@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJHSocketManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of YJHSocketManager.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   socket的辅助工具
                        DESC
 
-  s.homepage         = 'https://github.com/472392556@qq.com/YJHSocketManager'
+  s.homepage         = 'https://github.com/Yinjianhua472392556/YJHSocketManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '472392556@qq.com' => '18620526218@163.com' }
-  s.source           = { :git => 'https://github.com/472392556@qq.com/YJHSocketManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Yinjianhua472392556/YJHSocketManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
