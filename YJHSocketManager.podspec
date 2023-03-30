@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  socket的辅助工具
                        DESC
 
   s.homepage         = 'https://github.com/472392556@qq.com/YJHSocketManager'
@@ -39,4 +39,14 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'Moya/RxSwift', '~> 14.0'
+  s.dependency 'MJExtension'
+  s.dependency 'AFNetworking'
+  s.dependency 'Reachability'
+  s.dependency 'SwifterSwift'
+  s.dependency 'CocoaAsyncSocket'
+  
 end
